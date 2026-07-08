@@ -1,0 +1,4 @@
+- The application bootstraps in `bootstrap/app.php`, registering global middleware (`HandleInertiaRequests`, `HandleAppearance`) that bridges server-side state to the client-side Inertia lifecycle.
+- Vite configuration (`vite.config.ts`) integrates `@inertiajs/vite` and `@laravel/vite-plugin-wayfinder` to synchronize backend route definitions with frontend TypeScript actions and types.
+- Shared validation logic is enforced through Form Request classes in `app/Http/Requests`, which are consumed by both backend controllers and generated frontend action helpers.
+- Database schema migrations and Eloquent models in `app/Models` define the core domain entities (Applicants, Jobs, Applications) that are exposed via API endpoints and rendered in Vue components.

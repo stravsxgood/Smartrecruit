@@ -1,0 +1,4 @@
+- Controller (`JobPositionController`) handles CRUD operations, delegating validation to dedicated Form Requests (`StoreJobPositionRequest`, `UpdateJobPositionRequest`) and rendering via Inertia.js.
+- Model (`JobPosition`) defines fillable attributes, casts JSON fields (`requirements`, `benefits`) to arrays, and establishes relationships with `User` (creator) and `Application`.
+- Authorization is enforced at two levels: Form Requests restrict store/update to 'hrd' role; controller's `destroy` method additionally checks for 'hrd' role before deletion.
+- Data flow: Controller → Form Request (validation/auth) → Model (persistence/relationships) → Inertia Response (frontend integration).

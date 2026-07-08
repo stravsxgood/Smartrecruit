@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: app/job_positions
+title: Job Position Management
+scope:
+    - app/Http/Controllers/JobPositionController.php
+    - app/Http/Requests/StoreJobPositionRequest.php
+    - app/Http/Requests/UpdateJobPositionRequest.php
+    - app/Models/JobPosition.php
+source_files: []
+depends_on: []
+related_to:
+    - path: database
+    - path: frontend/core_app
+    - path: tests

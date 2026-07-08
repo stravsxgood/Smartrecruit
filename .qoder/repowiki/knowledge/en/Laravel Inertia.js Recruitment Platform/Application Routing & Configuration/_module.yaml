@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: routes_config
+title: Application Routing & Configuration
+scope:
+    - routes/
+    - config/
+source_files: []
+depends_on: []
+related_to:
+    - path: entry_points
+    - path: frontend/core_app

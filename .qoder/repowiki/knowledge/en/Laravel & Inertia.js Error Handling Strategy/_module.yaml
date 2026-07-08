@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: error_handling
+title: Laravel & Inertia.js Error Handling Strategy
+scope: []
+source_files:
+    - bootstrap/app.php
+    - .agents/skills/laravel-best-practices/rules/error-handling.md
+    - resources/js/components/InputError.vue
+    - resources/js/components/AlertError.vue
+    - resources/js/lib/flashToast.ts
+    - app/Http/Middleware/HandleInertiaRequests.php
+depends_on: []
+related_to: []

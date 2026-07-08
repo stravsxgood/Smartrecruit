@@ -1,0 +1,3 @@
+- Routes are split into `web.php` (public/authenticated UI), `settings.php` (user profile/security), and `console.php` (Artisan commands), with `web.php` requiring `settings.php` to compose the full route table.
+- Configuration files in `config/` follow Laravel's standard convention, providing environment-driven settings for core services like `app`, `auth`, `database`, and `fortify`.
+- The module integrates Laravel Fortify for backend authentication logic and Inertia.js for SPA-like page rendering, bridging traditional Laravel routing with modern frontend expectations.

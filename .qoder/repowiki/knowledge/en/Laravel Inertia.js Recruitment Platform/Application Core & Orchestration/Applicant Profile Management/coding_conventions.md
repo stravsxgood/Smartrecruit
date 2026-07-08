@@ -1,0 +1,3 @@
+- Form Request classes use identical validation rules for both store and update operations, keeping rules DRY across create/update flows.
+- Array-type fields (skills, experience, education, portfolio_urls) are cast to 'array' in the model and validated as nullable arrays in Form Requests.
+- File uploads are processed in the controller after validation, storing to a named disk path and unsetting the raw file key before mass assignment.

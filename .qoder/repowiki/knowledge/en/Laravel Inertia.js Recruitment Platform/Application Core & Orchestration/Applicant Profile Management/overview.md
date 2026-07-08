@@ -1,0 +1,1 @@
+Manages applicant profile creation, display, and updates including resume uploads and structured career data.

@@ -1,0 +1,4 @@
+- Uses Laravel migration classes to define relational schema with foreign key constraints (e.g., `applicant_profiles` linked to `users`, `applications` linked to profiles and jobs).
+- Leverages JSONB columns for flexible, semi-structured data storage in `skills`, `experience`, `requirements`, and AI analysis results (`cv_analyses`).
+- Includes a `UserFactory` for generating test user data with optional two-factor authentication states.
+- Provides a `DatabaseSeeder` for initializing the database with a default test user.

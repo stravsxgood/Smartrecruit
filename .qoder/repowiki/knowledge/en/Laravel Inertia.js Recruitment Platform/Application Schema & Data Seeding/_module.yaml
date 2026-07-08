@@ -1,0 +1,12 @@
+schema_version: 1
+module_path: database
+title: Application Schema & Data Seeding
+scope:
+    - database/
+source_files: []
+depends_on: []
+related_to:
+    - path: app/applicant_profiles
+    - path: app/core
+    - path: app/job_positions
+    - path: tests

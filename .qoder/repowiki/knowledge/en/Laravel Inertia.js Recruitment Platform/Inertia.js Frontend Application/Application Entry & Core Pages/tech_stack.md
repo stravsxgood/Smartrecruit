@@ -1,0 +1,1 @@
+Uses Inertia.js for SPA routing and state management, Vue 3 Composition API for component logic, and Tailwind CSS for styling.

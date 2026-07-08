@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: app/core
+title: Core Domain Models & Application Bootstrap
+scope:
+    - app/Models/User.php
+    - app/Models/Application.php
+    - app/Models/CvAnalysis.php
+    - app/Http/Controllers/Controller.php
+    - app/Providers/AppServiceProvider.php
+source_files: []
+depends_on: []
+related_to:
+    - path: database

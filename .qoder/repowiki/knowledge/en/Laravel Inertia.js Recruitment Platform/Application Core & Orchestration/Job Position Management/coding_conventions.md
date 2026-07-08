@@ -1,0 +1,3 @@
+- Form Requests encapsulate both authorization logic (role-based) and validation rules for store/update operations.
+- JSON-type database columns (`requirements`, `benefits`) are cast to PHP arrays in the model for easier manipulation.
+- Inertia.js is used consistently for rendering responses, passing model data directly to Vue/React components.

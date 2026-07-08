@@ -1,0 +1,3 @@
+- Pages use `defineOptions` to declare layout-specific metadata such as breadcrumbs.
+- Route generation is handled via typed imports from `@/routes` rather than hardcoded strings.
+- Global utilities like theme and toast initialization are executed at the module root in `app.ts`.

@@ -1,0 +1,2 @@
+- Use of PHP traits in `App\Concerns` to share validation rule definitions across multiple action classes.
+- Implementation of Laravel Fortify action interfaces (e.g., `CreatesNewUsers`) for decoupled authentication logic.

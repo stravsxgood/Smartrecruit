@@ -1,0 +1,14 @@
+schema_version: 1
+module_path: app/applicant_profiles
+title: Applicant Profile Management
+scope:
+    - app/Http/Controllers/ApplicantProfileController.php
+    - app/Http/Requests/StoreApplicantProfileRequest.php
+    - app/Http/Requests/UpdateApplicantProfileRequest.php
+    - app/Models/ApplicantProfile.php
+source_files: []
+depends_on: []
+related_to:
+    - path: database
+    - path: frontend/core_app
+    - path: tests

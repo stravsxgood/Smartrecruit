@@ -1,0 +1,1 @@
+Validates application behavior through Pest-driven feature tests for authentication, user settings, and domain workflows, alongside unit test scaffolding.

@@ -1,0 +1,1 @@
+Orchestrates a server-driven single-page application using Inertia.js, bridging Laravel backend routes with Vue 3 components through a shared routing and layout contract.

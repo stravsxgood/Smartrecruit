@@ -1,0 +1,2 @@
+- Route definitions use closure-based controllers for simple views (e.g., dashboard, welcome) and dedicated controller classes for resource-heavy or complex logic.
+- Configuration values consistently rely on the `env()` helper with sensible defaults, ensuring environment-specific overrides without hardcoding secrets.

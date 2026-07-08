@@ -1,0 +1,2 @@
+- Middleware is registered via closures in `bootstrap/app.php` rather than using a separate `Kernel.php` class.
+- Service providers are listed in a dedicated `bootstrap/providers.php` array file instead of being hardcoded in the application configuration.

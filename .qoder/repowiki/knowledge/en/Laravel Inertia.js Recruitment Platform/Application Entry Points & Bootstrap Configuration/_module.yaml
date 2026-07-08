@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: entry_points
+title: Application Entry Points & Bootstrap Configuration
+scope:
+    - public/
+    - bootstrap/
+source_files: []
+depends_on: []
+related_to:
+    - path: app
+    - path: routes_config

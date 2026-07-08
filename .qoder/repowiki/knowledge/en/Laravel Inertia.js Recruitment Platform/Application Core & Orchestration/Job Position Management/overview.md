@@ -1,0 +1,1 @@
+Manages job position lifecycle including creation, updates, and deletion with HRD-specific authorization and Inertia.js-driven frontend rendering.

@@ -1,0 +1,4 @@
+- The `public/index.php` file serves as the single entry point for all HTTP requests, handling autoloading and delegating to the bootstrap script.
+- `bootstrap/app.php` configures the application instance using Laravel's functional configuration API, defining routing paths (`web`, `commands`, `health`) and registering global web middleware including Inertia and appearance handlers.
+- `bootstrap/providers.php` acts as the registry for application service providers, explicitly listing `AppServiceProvider` and `FortifyServiceProvider`.
+- `public/.htaccess` manages Apache-level URL rewriting, ensuring all non-static requests are routed to `index.php` and handling authorization headers.

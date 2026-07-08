@@ -1,0 +1,1 @@
+Orchestrates domain modules via a unified Inertia.js request lifecycle, global security policies, and shared validation contracts.

@@ -1,0 +1,1 @@
+Laravel 11+ functional configuration style (using `Application::configure` instead of legacy kernel classes).

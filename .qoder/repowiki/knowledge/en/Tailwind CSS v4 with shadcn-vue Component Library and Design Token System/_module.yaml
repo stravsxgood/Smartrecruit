@@ -1,0 +1,17 @@
+schema_version: 1
+module_path: frontend_style
+title: Tailwind CSS v4 with shadcn-vue Component Library and Design Token System
+scope: []
+source_files:
+    - resources/css/app.css
+    - components.json
+    - package.json
+    - vite.config.ts
+    - resources/js/lib/utils.ts
+    - resources/js/composables/useAppearance.ts
+    - resources/js/components/ui/button/index.ts
+    - resources/js/components/ui/button/Button.vue
+    - resources/js/types/ui.ts
+    - resources/js/components/AppearanceTabs.vue
+depends_on: []
+related_to: []

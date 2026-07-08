@@ -1,0 +1,1 @@
+Defines web and console routes while centralizing framework, authentication, and service configurations for a Laravel application using Inertia.js.

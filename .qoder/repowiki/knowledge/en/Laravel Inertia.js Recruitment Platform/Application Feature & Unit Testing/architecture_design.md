@@ -1,0 +1,4 @@
+- Entry point: `tests/Pest.php` configures the global test environment, extending `Tests\TestCase` and applying `RefreshDatabase` to all `Feature` tests.
+- Base class: `tests/TestCase.php` extends Laravel's base test case and provides `skipUnlessFortifyHas()` to conditionally skip tests based on Laravel Fortify feature flags.
+- Organization: Feature tests are grouped by domain (`Auth`, `Settings`) and top-level resources (`ApplicantProfileTest`, `JobPositionTest`, `DashboardTest`), while `Unit` tests remain isolated in `tests/Unit/`.
+- Dependency direction: Tests depend on application models (`App\Models\*`) and routes, using factory states and database assertions to verify end-to-end flows.

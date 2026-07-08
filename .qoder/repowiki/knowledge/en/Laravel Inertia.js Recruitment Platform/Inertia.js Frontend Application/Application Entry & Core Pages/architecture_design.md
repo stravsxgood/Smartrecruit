@@ -1,0 +1,3 @@
+- Entry point: `resources/js/app.ts` initializes the Inertia app via `createInertiaApp`, defining a dynamic layout resolver that maps page names to specific layout components (`AuthLayout`, `AppLayout`, `SettingsLayout`).
+- Global side-effects: The module executes `initializeTheme()` for dark/light mode persistence and `initializeFlashToast()` to bridge server-side flash messages to client-side toast notifications.
+- Page structure: `Welcome.vue` serves as the public-facing landing page with authentication links, while `Dashboard.vue` represents the primary authenticated view, utilizing `defineOptions` for breadcrumb configuration.

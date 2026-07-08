@@ -1,0 +1,4 @@
+- Centralizes Inertia.js integration through `HandleInertiaRequests` middleware, providing shared props (auth, sidebar state) to all child modules.
+- Enforces global application defaults (immutable dates, production password complexity, destructive command protection) in `AppServiceProvider`.
+- Manages authentication wiring via `FortifyServiceProvider`, binding custom actions and Inertia-rendered views for the entire auth flow.
+- Provides reusable validation logic through `Concerns` traits, ensuring consistent profile and password rules across user management and registration.

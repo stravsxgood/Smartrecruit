@@ -1,0 +1,2 @@
+- **Laravel Fortify**: Integrated for authentication scaffolding, including passkey support (`PasskeyAuthenticatable`) and two-factor authentication (`TwoFactorAuthenticatable`) within the `User` model.
+- **Inertia.js**: Used for server-side rendering coordination, with controllers returning `Inertia::render()` responses to bridge Laravel backends with frontend frameworks.

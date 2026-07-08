@@ -1,0 +1,3 @@
+- `composer run setup`: Initializes the environment by copying `.env`, generating keys, migrating the database, and installing/building frontend assets.
+- `composer run dev`: Concurrently starts the Laravel server, queue listener, and Vite development server using `concurrently`.
+- `composer run ci:check`: Executes a unified pipeline for linting, formatting, type checking (PHPStan/vue-tsc), and running the test suite.

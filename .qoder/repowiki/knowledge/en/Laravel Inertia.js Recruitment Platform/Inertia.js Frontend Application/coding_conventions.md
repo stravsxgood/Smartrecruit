@@ -1,0 +1,3 @@
+- Route helpers are generated with both URL getters and form definition objects to support both programmatic navigation and HTML form submissions.
+- Composables for global state (like appearance) manage both client-side localStorage persistence and server-side cookie synchronization for SSR consistency.
+- UI components are organized into atomic sub-directories (e.g., `ui/button`, `ui/card`) with barrel exports in `index.ts` files.

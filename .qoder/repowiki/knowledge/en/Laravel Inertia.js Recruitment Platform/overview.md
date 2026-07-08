@@ -1,0 +1,1 @@
+Orchestrates a full-stack recruitment application by unifying Laravel backend services with a Vue 3 frontend via Inertia.js, enforcing shared type safety and routing contracts.

@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: build_system
+title: Laravel Inertia.js Build & CI Pipeline
+scope: []
+source_files:
+    - composer.json
+    - package.json
+    - vite.config.ts
+    - .github/workflows/tests.yml
+    - .github/workflows/lint.yml
+    - phpunit.xml
+depends_on: []
+related_to: []

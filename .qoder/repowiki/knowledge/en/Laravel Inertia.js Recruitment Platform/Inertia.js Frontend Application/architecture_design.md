@@ -1,0 +1,4 @@
+- The application is bootstrapped in `app.ts` using `createInertiaApp`, which dynamically resolves layouts based on page component names (e.g., `auth/` maps to `AuthLayout`).
+- Global concerns like theme initialization (`useAppearance`) and server-side flash messages (`flashToast`) are wired at the entry point to ensure consistent UX across all pages.
+- Backend routes are exposed to the frontend via generated TypeScript definitions in `routes/index.ts`, providing type-safe URL generation and form method handling that mirrors Laravel's routing structure.
+- The root Blade template `app.blade.php` serves as the static shell, injecting inline scripts for immediate theme application and loading Vite assets for the current Inertia page component.

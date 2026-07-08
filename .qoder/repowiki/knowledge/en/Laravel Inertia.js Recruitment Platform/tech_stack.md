@@ -1,0 +1,1 @@
+Laravel 13, Inertia.js v3, Vue 3, Vite, Tailwind CSS v4, Pest PHP, Wayfinder

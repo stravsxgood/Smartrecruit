@@ -1,0 +1,3 @@
+- Migrations use anonymous classes extending `Illuminate\Database\Migrations\Migration` with explicit `up()` and `down()` methods.
+- Foreign keys are defined using `foreignId()->constrained()->cascadeOnDelete()` to ensure referential integrity and automatic cleanup.
+- Complex or variable attributes (skills, requirements, AI responses) are stored in `jsonb` columns rather than separate relational tables.

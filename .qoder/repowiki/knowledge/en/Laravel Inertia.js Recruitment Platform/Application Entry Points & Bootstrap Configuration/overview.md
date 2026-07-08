@@ -1,0 +1,1 @@
+Defines the HTTP entry point, application bootstrapping, middleware registration, and service provider loading for the Laravel application.

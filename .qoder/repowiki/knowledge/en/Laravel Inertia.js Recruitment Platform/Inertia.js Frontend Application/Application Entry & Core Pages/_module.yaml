@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: frontend/core_app
+title: Application Entry & Core Pages
+scope:
+    - resources/js/app.ts
+    - resources/js/pages/Dashboard.vue
+    - resources/js/pages/Welcome.vue
+source_files: []
+depends_on: []
+related_to:
+    - path: app/applicant_profiles
+    - path: app/job_positions
+    - path: routes_config

@@ -1,0 +1,4 @@
+- Controller layer (`ApplicantProfileController`) handles show/store/update actions using Inertia.js for SPA rendering on `show` and redirect responses on mutations.
+- Form Request classes (`StoreApplicantProfileRequest`, `UpdateApplicantProfileRequest`) encapsulate authorization (authenticated user check) and validation rules for resume files and JSON-array fields.
+- Model layer (`ApplicantProfile`) defines fillable attributes, array casts for skills/experience/education/portfolio_urls, and Eloquent relationships to `User` (belongsTo) and `Application` (hasMany).
+- Resume file handling occurs in the controller: upload to `public/resumes` disk on store, delete old file before replacing on update, with ownership verification via `user_id` comparison in `update`.

@@ -1,0 +1,1 @@
+Bootstraps the Inertia.js Vue application, manages global theme initialization, and provides the primary landing and dashboard views.

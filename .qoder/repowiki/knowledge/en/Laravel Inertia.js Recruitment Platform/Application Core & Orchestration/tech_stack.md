@@ -1,0 +1,1 @@
+Laravel Fortify for authentication scaffolding; Inertia.js for server-driven SPA rendering.

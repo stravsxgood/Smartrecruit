@@ -1,0 +1,4 @@
+- Uses Pest's `test()` and `it()` functions for defining test cases instead of traditional PHPUnit class methods.
+- Applies `actingAs($user)` to simulate authenticated sessions for protected routes.
+- Verifies state changes using `assertDatabaseHas()` after performing HTTP actions.
+- Creates test data using Eloquent factories (e.g., `User::factory()->create()`) rather than manual instantiation.

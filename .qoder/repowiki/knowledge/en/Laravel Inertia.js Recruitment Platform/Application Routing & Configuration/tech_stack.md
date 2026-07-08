@@ -1,0 +1,1 @@
+Laravel Fortify for authentication features (passkeys, 2FA) and Inertia.js for server-side rendering and page component resolution.

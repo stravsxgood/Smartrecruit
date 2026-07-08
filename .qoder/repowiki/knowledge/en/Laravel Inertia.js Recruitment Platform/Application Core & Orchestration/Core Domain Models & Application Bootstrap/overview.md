@@ -1,0 +1,1 @@
+Defines primary Eloquent entities for user management, job applications, and AI-driven CV analysis, while configuring global application defaults and security policies.

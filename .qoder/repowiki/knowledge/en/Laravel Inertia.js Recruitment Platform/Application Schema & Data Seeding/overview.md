@@ -1,0 +1,1 @@
+Defines the database schema for a recruitment platform including applicant profiles, job positions, applications, and AI-driven CV analysis, alongside data factories and seeders.

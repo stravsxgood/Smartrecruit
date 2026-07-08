@@ -1,0 +1,737 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: en-US
+branch: Q0DeR-MaG1C-BrAnCh-Fo2-NoN-GiT-Or-No-C0MmIt
+nodes_managed: true
+exported_at: "2026-06-25T07:57:12Z"
+modules:
+    "":
+        dir_name: Laravel Inertia.js Recruitment Platform
+        title: Laravel Inertia.js Recruitment Platform
+        scope:
+            - .gitignore
+            - composer.json
+            - package.json
+            - vite.config.ts
+            - tsconfig.json
+            - AGENTS.md
+            - CONTEXT.md
+            - DESIGN.md
+            - MEMORY.md
+            - .editorconfig
+            - .npmrc
+            - .prettierrc
+            - .prettierignore
+            - boost.json
+            - components.json
+            - composer.lock
+            - eslint.config.js
+            - package-lock.json
+            - phpstan.neon
+            - phpunit.xml
+            - pint.json
+            - pnpm-workspace.yaml
+            - skills-lock.json
+            - .gitattributes
+            - .github/
+            - .agents/
+            - .agents\skills\find-skills\SKILL.md
+            - .agents\skills\fortify-development\SKILL.md
+            - .agents\skills\frontend-design\LICENSE.txt
+            - .agents\skills\frontend-design\SKILL.md
+            - .agents\skills\inertia-vue-development\SKILL.md
+            - .agents\skills\laravel-best-practices\SKILL.md
+            - .agents\skills\laravel-best-practices\rules\advanced-queries.md
+            - .agents\skills\laravel-best-practices\rules\architecture.md
+            - .agents\skills\laravel-best-practices\rules\blade-views.md
+            - .agents\skills\laravel-best-practices\rules\caching.md
+            - .agents\skills\laravel-best-practices\rules\collections.md
+            - .agents\skills\laravel-best-practices\rules\config.md
+            - .agents\skills\laravel-best-practices\rules\db-performance.md
+            - .agents\skills\laravel-best-practices\rules\eloquent.md
+            - .agents\skills\laravel-best-practices\rules\error-handling.md
+            - .agents\skills\laravel-best-practices\rules\events-notifications.md
+            - .agents\skills\laravel-best-practices\rules\http-client.md
+            - .agents\skills\laravel-best-practices\rules\mail.md
+            - .agents\skills\laravel-best-practices\rules\migrations.md
+            - .agents\skills\laravel-best-practices\rules\queue-jobs.md
+            - .agents\skills\laravel-best-practices\rules\routing.md
+            - .agents\skills\laravel-best-practices\rules\scheduling.md
+            - .agents\skills\laravel-best-practices\rules\security.md
+            - .agents\skills\laravel-best-practices\rules\style.md
+            - .agents\skills\laravel-best-practices\rules\testing.md
+            - .agents\skills\laravel-best-practices\rules\validation.md
+            - .agents\skills\pest-testing\SKILL.md
+            - .agents\skills\tailwindcss-development\SKILL.md
+            - .agents\skills\wayfinder-development\SKILL.md
+            - .env
+            - .env.example
+            - .github\dependabot.yml
+            - .github\workflows\lint.yml
+            - .github\workflows\tests.yml
+            - app\Actions\Fortify\CreateNewUser.php
+            - app\Actions\Fortify\ResetUserPassword.php
+            - app\Concerns\PasswordValidationRules.php
+            - app\Concerns\ProfileValidationRules.php
+            - app\Http\Controllers\ApplicantProfileController.php
+            - app\Http\Controllers\Controller.php
+            - app\Http\Controllers\JobPositionController.php
+            - app\Http\Controllers\Settings\ProfileController.php
+            - app\Http\Controllers\Settings\SecurityController.php
+            - app\Http\Middleware\HandleAppearance.php
+            - app\Http\Middleware\HandleInertiaRequests.php
+            - app\Http\Requests\Settings\PasswordUpdateRequest.php
+            - app\Http\Requests\Settings\ProfileDeleteRequest.php
+            - app\Http\Requests\Settings\ProfileUpdateRequest.php
+            - app\Http\Requests\Settings\TwoFactorAuthenticationRequest.php
+            - app\Http\Requests\StoreApplicantProfileRequest.php
+            - app\Http\Requests\StoreJobPositionRequest.php
+            - app\Http\Requests\UpdateApplicantProfileRequest.php
+            - app\Http\Requests\UpdateJobPositionRequest.php
+            - app\Models\ApplicantProfile.php
+            - app\Models\Application.php
+            - app\Models\CvAnalysis.php
+            - app\Models\JobPosition.php
+            - app\Models\User.php
+            - app\Providers\AppServiceProvider.php
+            - app\Providers\FortifyServiceProvider.php
+            - artisan
+            - bootstrap\app.php
+            - bootstrap\cache\.gitignore
+            - bootstrap\cache\packages.php
+            - bootstrap\cache\services.php
+            - bootstrap\providers.php
+            - config\app.php
+            - config\auth.php
+            - config\cache.php
+            - config\database.php
+            - config\filesystems.php
+            - config\fortify.php
+            - config\inertia.php
+            - config\logging.php
+            - config\mail.php
+            - config\queue.php
+            - config\services.php
+            - config\session.php
+            - database\.gitignore
+            - database\database.sqlite
+            - database\factories\UserFactory.php
+            - database\migrations\0001_01_01_000000_create_users_table.php
+            - database\migrations\0001_01_01_000001_create_cache_table.php
+            - database\migrations\0001_01_01_000002_create_jobs_table.php
+            - database\migrations\2024_01_01_000000_create_passkeys_table.php
+            - database\migrations\2025_08_14_170933_add_two_factor_columns_to_users_table.php
+            - database\migrations\2026_06_24_164755_create_applicant_profiles_table.php
+            - database\migrations\2026_06_24_164755_create_applications_table.php
+            - database\migrations\2026_06_24_164755_create_job_positions_table.php
+            - database\migrations\2026_06_24_164756_add_role_and_metadata_to_users_table.php
+            - database\migrations\2026_06_24_164756_create_cv_analyses_table.php
+            - database\seeders\DatabaseSeeder.php
+            - public\.htaccess
+            - public\apple-touch-icon.png
+            - public\favicon.ico
+            - public\favicon.svg
+            - public\index.php
+            - public\robots.txt
+            - resources\css\app.css
+            - resources\js\actions\App\Http\Controllers\ApplicantProfileController.ts
+            - resources\js\actions\App\Http\Controllers\JobPositionController.ts
+            - resources\js\actions\App\Http\Controllers\Settings\ProfileController.ts
+            - resources\js\actions\App\Http\Controllers\Settings\SecurityController.ts
+            - resources\js\actions\App\Http\Controllers\Settings\index.ts
+            - resources\js\actions\App\Http\Controllers\index.ts
+            - resources\js\actions\App\Http\index.ts
+            - resources\js\actions\App\index.ts
+            - resources\js\actions\Illuminate\Routing\RedirectController.ts
+            - resources\js\actions\Illuminate\Routing\index.ts
+            - resources\js\actions\Illuminate\index.ts
+            - resources\js\actions\Inertia\Controller.ts
+            - resources\js\actions\Inertia\index.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\AuthenticatedSessionController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\ConfirmablePasswordController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\ConfirmedPasswordStatusController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\ConfirmedTwoFactorAuthenticationController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\EmailVerificationNotificationController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\EmailVerificationPromptController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\NewPasswordController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\PasswordResetLinkController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\RecoveryCodeController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\RegisteredUserController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\TwoFactorAuthenticatedSessionController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\TwoFactorAuthenticationController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\TwoFactorQrCodeController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\TwoFactorSecretKeyController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\VerifyEmailController.ts
+            - resources\js\actions\Laravel\Fortify\Http\Controllers\index.ts
+            - resources\js\actions\Laravel\Fortify\Http\index.ts
+            - resources\js\actions\Laravel\Fortify\index.ts
+            - resources\js\actions\Laravel\Passkeys\Http\Controllers\PasskeyConfirmationController.ts
+            - resources\js\actions\Laravel\Passkeys\Http\Controllers\PasskeyLoginController.ts
+            - resources\js\actions\Laravel\Passkeys\Http\Controllers\PasskeyRegistrationController.ts
+            - resources\js\actions\Laravel\Passkeys\Http\Controllers\index.ts
+            - resources\js\actions\Laravel\Passkeys\Http\index.ts
+            - resources\js\actions\Laravel\Passkeys\index.ts
+            - resources\js\actions\Laravel\index.ts
+            - resources\js\app.ts
+            - resources\js\components\AlertError.vue
+            - resources\js\components\AppContent.vue
+            - resources\js\components\AppHeader.vue
+            - resources\js\components\AppLogo.vue
+            - resources\js\components\AppLogoIcon.vue
+            - resources\js\components\AppShell.vue
+            - resources\js\components\AppSidebar.vue
+            - resources\js\components\AppSidebarHeader.vue
+            - resources\js\components\AppearanceTabs.vue
+            - resources\js\components\Breadcrumbs.vue
+            - resources\js\components\DeleteUser.vue
+            - resources\js\components\Heading.vue
+            - resources\js\components\InputError.vue
+            - resources\js\components\ManagePasskeys.vue
+            - resources\js\components\ManageTwoFactor.vue
+            - resources\js\components\NavFooter.vue
+            - resources\js\components\NavMain.vue
+            - resources\js\components\NavUser.vue
+            - resources\js\components\PasskeyItem.vue
+            - resources\js\components\PasskeyRegister.vue
+            - resources\js\components\PasskeyVerify.vue
+            - resources\js\components\PasswordInput.vue
+            - resources\js\components\PlaceholderPattern.vue
+            - resources\js\components\TextLink.vue
+            - resources\js\components\TwoFactorRecoveryCodes.vue
+            - resources\js\components\TwoFactorSetupModal.vue
+            - resources\js\components\UserInfo.vue
+            - resources\js\components\UserMenuContent.vue
+            - resources\js\components\ui\alert\Alert.vue
+            - resources\js\components\ui\alert\AlertDescription.vue
+            - resources\js\components\ui\alert\AlertTitle.vue
+            - resources\js\components\ui\alert\index.ts
+            - resources\js\components\ui\avatar\Avatar.vue
+            - resources\js\components\ui\avatar\AvatarFallback.vue
+            - resources\js\components\ui\avatar\AvatarImage.vue
+            - resources\js\components\ui\avatar\index.ts
+            - resources\js\components\ui\badge\Badge.vue
+            - resources\js\components\ui\badge\index.ts
+            - resources\js\components\ui\breadcrumb\Breadcrumb.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbEllipsis.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbItem.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbLink.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbList.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbPage.vue
+            - resources\js\components\ui\breadcrumb\BreadcrumbSeparator.vue
+            - resources\js\components\ui\breadcrumb\index.ts
+            - resources\js\components\ui\button\Button.vue
+            - resources\js\components\ui\button\index.ts
+            - resources\js\components\ui\card\Card.vue
+            - resources\js\components\ui\card\CardAction.vue
+            - resources\js\components\ui\card\CardContent.vue
+            - resources\js\components\ui\card\CardDescription.vue
+            - resources\js\components\ui\card\CardFooter.vue
+            - resources\js\components\ui\card\CardHeader.vue
+            - resources\js\components\ui\card\CardTitle.vue
+            - resources\js\components\ui\card\index.ts
+            - resources\js\components\ui\checkbox\Checkbox.vue
+            - resources\js\components\ui\checkbox\index.ts
+            - resources\js\components\ui\collapsible\Collapsible.vue
+            - resources\js\components\ui\collapsible\CollapsibleContent.vue
+            - resources\js\components\ui\collapsible\CollapsibleTrigger.vue
+            - resources\js\components\ui\collapsible\index.ts
+            - resources\js\components\ui\dialog\Dialog.vue
+            - resources\js\components\ui\dialog\DialogClose.vue
+            - resources\js\components\ui\dialog\DialogContent.vue
+            - resources\js\components\ui\dialog\DialogDescription.vue
+            - resources\js\components\ui\dialog\DialogFooter.vue
+            - resources\js\components\ui\dialog\DialogHeader.vue
+            - resources\js\components\ui\dialog\DialogOverlay.vue
+            - resources\js\components\ui\dialog\DialogScrollContent.vue
+            - resources\js\components\ui\dialog\DialogTitle.vue
+            - resources\js\components\ui\dialog\DialogTrigger.vue
+            - resources\js\components\ui\dialog\index.ts
+            - resources\js\components\ui\dropdown-menu\DropdownMenu.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuCheckboxItem.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuContent.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuGroup.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuItem.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuLabel.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuRadioGroup.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuRadioItem.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuSeparator.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuShortcut.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuSub.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuSubContent.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuSubTrigger.vue
+            - resources\js\components\ui\dropdown-menu\DropdownMenuTrigger.vue
+            - resources\js\components\ui\dropdown-menu\index.ts
+            - resources\js\components\ui\input-otp\InputOTP.vue
+            - resources\js\components\ui\input-otp\InputOTPGroup.vue
+            - resources\js\components\ui\input-otp\InputOTPSeparator.vue
+            - resources\js\components\ui\input-otp\InputOTPSlot.vue
+            - resources\js\components\ui\input-otp\index.ts
+            - resources\js\components\ui\input\Input.vue
+            - resources\js\components\ui\input\index.ts
+            - resources\js\components\ui\label\Label.vue
+            - resources\js\components\ui\label\index.ts
+            - resources\js\components\ui\navigation-menu\NavigationMenu.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuContent.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuIndicator.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuItem.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuLink.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuList.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuTrigger.vue
+            - resources\js\components\ui\navigation-menu\NavigationMenuViewport.vue
+            - resources\js\components\ui\navigation-menu\index.ts
+            - resources\js\components\ui\select\Select.vue
+            - resources\js\components\ui\select\SelectContent.vue
+            - resources\js\components\ui\select\SelectGroup.vue
+            - resources\js\components\ui\select\SelectItem.vue
+            - resources\js\components\ui\select\SelectItemText.vue
+            - resources\js\components\ui\select\SelectLabel.vue
+            - resources\js\components\ui\select\SelectScrollDownButton.vue
+            - resources\js\components\ui\select\SelectScrollUpButton.vue
+            - resources\js\components\ui\select\SelectSeparator.vue
+            - resources\js\components\ui\select\SelectTrigger.vue
+            - resources\js\components\ui\select\SelectValue.vue
+            - resources\js\components\ui\select\index.ts
+            - resources\js\components\ui\separator\Separator.vue
+            - resources\js\components\ui\separator\index.ts
+            - resources\js\components\ui\sheet\Sheet.vue
+            - resources\js\components\ui\sheet\SheetClose.vue
+            - resources\js\components\ui\sheet\SheetContent.vue
+            - resources\js\components\ui\sheet\SheetDescription.vue
+            - resources\js\components\ui\sheet\SheetFooter.vue
+            - resources\js\components\ui\sheet\SheetHeader.vue
+            - resources\js\components\ui\sheet\SheetOverlay.vue
+            - resources\js\components\ui\sheet\SheetTitle.vue
+            - resources\js\components\ui\sheet\SheetTrigger.vue
+            - resources\js\components\ui\sheet\index.ts
+            - resources\js\components\ui\sidebar\Sidebar.vue
+            - resources\js\components\ui\sidebar\SidebarContent.vue
+            - resources\js\components\ui\sidebar\SidebarFooter.vue
+            - resources\js\components\ui\sidebar\SidebarGroup.vue
+            - resources\js\components\ui\sidebar\SidebarGroupAction.vue
+            - resources\js\components\ui\sidebar\SidebarGroupContent.vue
+            - resources\js\components\ui\sidebar\SidebarGroupLabel.vue
+            - resources\js\components\ui\sidebar\SidebarHeader.vue
+            - resources\js\components\ui\sidebar\SidebarInput.vue
+            - resources\js\components\ui\sidebar\SidebarInset.vue
+            - resources\js\components\ui\sidebar\SidebarMenu.vue
+            - resources\js\components\ui\sidebar\SidebarMenuAction.vue
+            - resources\js\components\ui\sidebar\SidebarMenuBadge.vue
+            - resources\js\components\ui\sidebar\SidebarMenuButton.vue
+            - resources\js\components\ui\sidebar\SidebarMenuButtonChild.vue
+            - resources\js\components\ui\sidebar\SidebarMenuItem.vue
+            - resources\js\components\ui\sidebar\SidebarMenuSkeleton.vue
+            - resources\js\components\ui\sidebar\SidebarMenuSub.vue
+            - resources\js\components\ui\sidebar\SidebarMenuSubButton.vue
+            - resources\js\components\ui\sidebar\SidebarMenuSubItem.vue
+            - resources\js\components\ui\sidebar\SidebarProvider.vue
+            - resources\js\components\ui\sidebar\SidebarRail.vue
+            - resources\js\components\ui\sidebar\SidebarSeparator.vue
+            - resources\js\components\ui\sidebar\SidebarTrigger.vue
+            - resources\js\components\ui\sidebar\index.ts
+            - resources\js\components\ui\sidebar\utils.ts
+            - resources\js\components\ui\skeleton\Skeleton.vue
+            - resources\js\components\ui\skeleton\index.ts
+            - resources\js\components\ui\sonner\Sonner.vue
+            - resources\js\components\ui\sonner\index.ts
+            - resources\js\components\ui\spinner\Spinner.vue
+            - resources\js\components\ui\spinner\index.ts
+            - resources\js\components\ui\tooltip\Tooltip.vue
+            - resources\js\components\ui\tooltip\TooltipContent.vue
+            - resources\js\components\ui\tooltip\TooltipProvider.vue
+            - resources\js\components\ui\tooltip\TooltipTrigger.vue
+            - resources\js\components\ui\tooltip\index.ts
+            - resources\js\composables\useAppearance.ts
+            - resources\js\composables\useCurrentUrl.ts
+            - resources\js\composables\useInitials.ts
+            - resources\js\composables\useTwoFactorAuth.ts
+            - resources\js\layouts\AppLayout.vue
+            - resources\js\layouts\AuthLayout.vue
+            - resources\js\layouts\app\AppHeaderLayout.vue
+            - resources\js\layouts\app\AppSidebarLayout.vue
+            - resources\js\layouts\auth\AuthCardLayout.vue
+            - resources\js\layouts\auth\AuthSimpleLayout.vue
+            - resources\js\layouts\auth\AuthSplitLayout.vue
+            - resources\js\layouts\settings\Layout.vue
+            - resources\js\lib\flashToast.ts
+            - resources\js\lib\utils.ts
+            - resources\js\pages\ApplicantProfiles\Show.vue
+            - resources\js\pages\Dashboard.vue
+            - resources\js\pages\JobPositions\Index.vue
+            - resources\js\pages\JobPositions\Show.vue
+            - resources\js\pages\Welcome.vue
+            - resources\js\pages\auth\ConfirmPassword.vue
+            - resources\js\pages\auth\ForgotPassword.vue
+            - resources\js\pages\auth\Login.vue
+            - resources\js\pages\auth\Register.vue
+            - resources\js\pages\auth\ResetPassword.vue
+            - resources\js\pages\auth\TwoFactorChallenge.vue
+            - resources\js\pages\auth\VerifyEmail.vue
+            - resources\js\pages\settings\Appearance.vue
+            - resources\js\pages\settings\Profile.vue
+            - resources\js\pages\settings\Security.vue
+            - resources\js\routes\appearance\index.ts
+            - resources\js\routes\applicant-profiles\index.ts
+            - resources\js\routes\boost\index.ts
+            - resources\js\routes\index.ts
+            - resources\js\routes\job-positions\index.ts
+            - resources\js\routes\login\index.ts
+            - resources\js\routes\passkey\index.ts
+            - resources\js\routes\password\confirm\index.ts
+            - resources\js\routes\password\index.ts
+            - resources\js\routes\profile\index.ts
+            - resources\js\routes\register\index.ts
+            - resources\js\routes\security\index.ts
+            - resources\js\routes\storage\index.ts
+            - resources\js\routes\storage\local\index.ts
+            - resources\js\routes\two-factor\index.ts
+            - resources\js\routes\two-factor\login\index.ts
+            - resources\js\routes\user-password\index.ts
+            - resources\js\routes\verification\index.ts
+            - resources\js\routes\well-known\index.ts
+            - resources\js\types\auth.ts
+            - resources\js\types\global.d.ts
+            - resources\js\types\index.ts
+            - resources\js\types\navigation.ts
+            - resources\js\types\ui.ts
+            - resources\js\types\vue-shims.d.ts
+            - resources\js\wayfinder\index.ts
+            - resources\views\app.blade.php
+            - routes\console.php
+            - routes\settings.php
+            - routes\web.php
+            - storage\app\.gitignore
+            - storage\app\private\.gitignore
+            - storage\app\public\.gitignore
+            - storage\framework\.gitignore
+            - storage\framework\cache\.gitignore
+            - storage\framework\cache\data\.gitignore
+            - storage\framework\sessions\.gitignore
+            - storage\framework\testing\.gitignore
+            - storage\framework\views\.gitignore
+            - storage\framework\views\0137af54433711c2c63be260576b34fd.php
+            - storage\framework\views\06073824f89bcc431b00487f30e98cd8.php
+            - storage\framework\views\0d48ad6e9ace27f855720fc1ae89513f.php
+            - storage\framework\views\0f7c298b8a268a39629731297fc8156b.php
+            - storage\framework\views\11ad30c0949676243765edfcb675d7da.blade.php
+            - storage\framework\views\11e9c63d8eee5040375fc6a11ee88804.php
+            - storage\framework\views\12c9f946c558874164a6901f915cf5e5.php
+            - storage\framework\views\1550621f6b25ebabd6ecf79f210e77cd.php
+            - storage\framework\views\1679a9bff464ad67556e0570d5bfad3d.php
+            - storage\framework\views\187748d9103e1f811080ba8c2807a3f8.php
+            - storage\framework\views\1afb215b3c9f743be78ad436d9388701.php
+            - storage\framework\views\1df28ea558a91299b445a26d2b6df511.blade.php
+            - storage\framework\views\26db90aa721208a30a75cc845eca1541.php
+            - storage\framework\views\28ac421b9640edce2c3dd5380cc77f94.php
+            - storage\framework\views\2a86e36d03d8aa615eaceff8688ea8c5.blade.php
+            - storage\framework\views\2b0782e8649f2ff1ec43159d527ef16c.php
+            - storage\framework\views\2b3b75ec9892892981b355f1d066492b.blade.php
+            - storage\framework\views\2c5683455eb894ab2e0a8bfbc63d3b2d.php
+            - storage\framework\views\2d21c7721a51fb6d42304f35ce55c99a.blade.php
+            - storage\framework\views\31b96f44d7c34c9da51120e0ce93f931.php
+            - storage\framework\views\327f7a14ecd6df1d57be17001e022174.php
+            - storage\framework\views\32976a5fc1ae7228225dc63a6dffbd66.blade.php
+            - storage\framework\views\36917c3cd92779521623a4c331e65c07.php
+            - storage\framework\views\3acd9cb830d810c5c48e5947d22ddfe5.php
+            - storage\framework\views\3aef0d145a2d1e06a54665a604997276.blade.php
+            - storage\framework\views\3cdc16f89c9c169e05d019e7403cd91f.php
+            - storage\framework\views\3d2f7de9e64b64fdd3b01cb92dcc796e.php
+            - storage\framework\views\3fe337ac7e6d0f47bf5f8681a7e45839.php
+            - storage\framework\views\41c2a658acfb656aba4c0168d8a2b010.php
+            - storage\framework\views\47854e31452b32d596642364027975cc.php
+            - storage\framework\views\47a5e587716b427bbc1a2ba64f739fd2.php
+            - storage\framework\views\4cbe9d06dcf413be06672bb7d93f6a27.php
+            - storage\framework\views\517272561f524335b6d40a5e539aa465.php
+            - storage\framework\views\56412a9aeb6f1e81a1c3ce244096a4cf.blade.php
+            - storage\framework\views\56ba7e9ac47002d28d393558507d8485.php
+            - storage\framework\views\5779314d999a659abd48b59f39664c09.php
+            - storage\framework\views\58f6b5ecbad88fc4da15879dbc7f6e69.blade.php
+            - storage\framework\views\5da6ceaf70173dbffea99fafd722c68e.php
+            - storage\framework\views\5ff37debdc85f73cc772324d9db5581e.php
+            - storage\framework\views\62781fd3999cbe79556e63445c60f732.php
+            - storage\framework\views\62fad4831c94a2241b0e2731e91b7035.php
+            - storage\framework\views\64e4efd1f7d53631e79c633e8b72ef51.php
+            - storage\framework\views\65190ee524b8eda6a8689c65586e327e.php
+            - storage\framework\views\65628f1ed9f92739e5827997390b654f.php
+            - storage\framework\views\6af66fd989c584c4f573bf1d246eea25.php
+            - storage\framework\views\6c99f988ff9ca9ebff20eec661174d2a.php
+            - storage\framework\views\72b89904a3d9d0f76d2f9c0eef5fb36c.php
+            - storage\framework\views\75c1f52ff9ca925804516725fbb8919e.php
+            - storage\framework\views\7ced8abe0bd2ba8532eec84cfce4c0ca.php
+            - storage\framework\views\7d29c7ebc6f1c54b38b6700d953935b6.php
+            - storage\framework\views\83913128c3ee4808ab640bac53b1d5a0.php
+            - storage\framework\views\900c73c7365b226a8977e475bb2e80ae.php
+            - storage\framework\views\908a314efc5d27f3a94d2d6cb4bba739.blade.php
+            - storage\framework\views\9162a8d75c2fe59cdb671a47321bfb1d.php
+            - storage\framework\views\916aacd9946bb3f56b01b9913bc6a7e5.php
+            - storage\framework\views\926e5c838467cefb5b9dcff8f75f91d8.php
+            - storage\framework\views\96f5f76646433c7f9903dc0fe8c98e86.php
+            - storage\framework\views\9d5c753a408e1a97e30098965aa80b32.php
+            - storage\framework\views\9f43a6699422d9ac5398d2f7523b5feb.php
+            - storage\framework\views\b2d4410abf04b6344a1360f1721b5d9f.php
+            - storage\framework\views\b40c0089fefa12eb142072108d353b65.php
+            - storage\framework\views\b4f2953cb30690f9e801dde8de8a15d2.php
+            - storage\framework\views\b56fb2d17ef987c8c6075492d11beaae.php
+            - storage\framework\views\b6665395934c22876293dbe13154ad48.php
+            - storage\framework\views\b86d877a547c732ed87bab05441a9249.php
+            - storage\framework\views\b9408686e394658e4e1708e07ad0496c.php
+            - storage\framework\views\c171fffd32ee4668d0f75682681d7fac.blade.php
+            - storage\framework\views\cf31dc706c7acbd77f8f45c21ab3ab4b.php
+            - storage\framework\views\d0a3875f75aa6e7d0ee046a268b998f7.php
+            - storage\framework\views\d1640c796ea7d658f5d537a146d3b49c.blade.php
+            - storage\framework\views\d320e10d54c572e18189ca4e065a26d6.php
+            - storage\framework\views\da1290c043c35f6c227d7fe5bea6388f.blade.php
+            - storage\framework\views\dca1a29b69452d307c2c30a7b9cc0a6e.blade.php
+            - storage\framework\views\e3b9888097c7ff3c001c6cdebb490dc0.blade.php
+            - storage\framework\views\e6515403d94bbb988d40e32caa3806bd.php
+            - storage\framework\views\efe75c7c0953490022ba5bd3c31dea8d.blade.php
+            - storage\framework\views\f6069159c346d2d0e1df7e372fd374ee.php
+            - storage\framework\views\fd881c36a99e29aeef33dc6b3a99d4fd.php
+            - storage\framework\views\ff72b9205b7295a5c776d4b5b49524c2.php
+            - storage\logs\.gitignore
+            - tests\Feature\ApplicantProfileTest.php
+            - tests\Feature\Auth\AuthenticationTest.php
+            - tests\Feature\Auth\EmailVerificationTest.php
+            - tests\Feature\Auth\PasswordConfirmationTest.php
+            - tests\Feature\Auth\PasswordResetTest.php
+            - tests\Feature\Auth\RegistrationTest.php
+            - tests\Feature\Auth\TwoFactorChallengeTest.php
+            - tests\Feature\Auth\VerificationNotificationTest.php
+            - tests\Feature\DashboardTest.php
+            - tests\Feature\ExampleTest.php
+            - tests\Feature\JobPositionTest.php
+            - tests\Feature\Settings\ProfileUpdateTest.php
+            - tests\Feature\Settings\SecurityTest.php
+            - tests\Pest.php
+            - tests\TestCase.php
+            - tests\Unit\ExampleTest.php
+        source_files: []
+        children:
+            - app
+            - database
+            - entry_points
+            - frontend
+            - routes_config
+            - tests
+        depends_on: []
+        related_to: []
+    app:
+        dir_name: Application Core & Orchestration
+        title: Application Core & Orchestration
+        scope:
+            - app/
+        source_files: []
+        children:
+            - app/applicant_profiles
+            - app/core
+            - app/job_positions
+        depends_on: []
+        related_to:
+            - path: entry_points
+    app/applicant_profiles:
+        dir_name: Applicant Profile Management
+        title: Applicant Profile Management
+        scope:
+            - app/Http/Controllers/ApplicantProfileController.php
+            - app/Http/Requests/StoreApplicantProfileRequest.php
+            - app/Http/Requests/UpdateApplicantProfileRequest.php
+            - app/Models/ApplicantProfile.php
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: database
+            - path: frontend/core_app
+            - path: tests
+    app/core:
+        dir_name: Core Domain Models & Application Bootstrap
+        title: Core Domain Models & Application Bootstrap
+        scope:
+            - app/Models/User.php
+            - app/Models/Application.php
+            - app/Models/CvAnalysis.php
+            - app/Http/Controllers/Controller.php
+            - app/Providers/AppServiceProvider.php
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: database
+    app/job_positions:
+        dir_name: Job Position Management
+        title: Job Position Management
+        scope:
+            - app/Http/Controllers/JobPositionController.php
+            - app/Http/Requests/StoreJobPositionRequest.php
+            - app/Http/Requests/UpdateJobPositionRequest.php
+            - app/Models/JobPosition.php
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: database
+            - path: frontend/core_app
+            - path: tests
+    build_system:
+        dir_name: Laravel Inertia.js Build & CI Pipeline
+        title: Laravel Inertia.js Build & CI Pipeline
+        scope: []
+        source_files:
+            - composer.json
+            - package.json
+            - vite.config.ts
+            - .github/workflows/tests.yml
+            - .github/workflows/lint.yml
+            - phpunit.xml
+        children: []
+        depends_on: []
+        related_to: []
+    configuration_system:
+        dir_name: Laravel Configuration System with Environment-Driven Layering
+        title: Laravel Configuration System with Environment-Driven Layering
+        scope: []
+        source_files:
+            - bootstrap/app.php
+            - bootstrap/providers.php
+            - config/app.php
+            - config/inertia.php
+            - config/fortify.php
+            - config/database.php
+            - config/session.php
+            - config/services.php
+            - .env.example
+            - app/Providers/AppServiceProvider.php
+            - vite.config.ts
+        children: []
+        depends_on: []
+        related_to: []
+    database:
+        dir_name: Application Schema & Data Seeding
+        title: Application Schema & Data Seeding
+        scope:
+            - database/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: app/applicant_profiles
+            - path: app/core
+            - path: app/job_positions
+            - path: tests
+    dependency_management:
+        dir_name: Dual-Ecosystem Dependency Management with Composer and npm
+        title: Dual-Ecosystem Dependency Management with Composer and npm
+        scope: []
+        source_files:
+            - composer.json
+            - composer.lock
+            - package.json
+            - package-lock.json
+            - .npmrc
+            - pnpm-workspace.yaml
+            - .github/dependabot.yml
+            - skills-lock.json
+            - boost.json
+        children: []
+        depends_on: []
+        related_to: []
+    entry_points:
+        dir_name: Application Entry Points & Bootstrap Configuration
+        title: Application Entry Points & Bootstrap Configuration
+        scope:
+            - public/
+            - bootstrap/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: app
+            - path: routes_config
+    error_handling:
+        dir_name: Laravel & Inertia.js Error Handling Strategy
+        title: Laravel & Inertia.js Error Handling Strategy
+        scope: []
+        source_files:
+            - bootstrap/app.php
+            - .agents/skills/laravel-best-practices/rules/error-handling.md
+            - resources/js/components/InputError.vue
+            - resources/js/components/AlertError.vue
+            - resources/js/lib/flashToast.ts
+            - app/Http/Middleware/HandleInertiaRequests.php
+        children: []
+        depends_on: []
+        related_to: []
+    frontend:
+        dir_name: Inertia.js Frontend Application
+        title: Inertia.js Frontend Application
+        scope:
+            - resources/
+        source_files: []
+        children:
+            - frontend/core_app
+        depends_on: []
+        related_to: []
+    frontend/core_app:
+        dir_name: Application Entry & Core Pages
+        title: Application Entry & Core Pages
+        scope:
+            - resources/js/app.ts
+            - resources/js/pages/Dashboard.vue
+            - resources/js/pages/Welcome.vue
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: app/applicant_profiles
+            - path: app/job_positions
+            - path: routes_config
+    frontend_style:
+        dir_name: Tailwind CSS v4 with shadcn-vue Component Library and Design Token System
+        title: Tailwind CSS v4 with shadcn-vue Component Library and Design Token System
+        scope: []
+        source_files:
+            - resources/css/app.css
+            - components.json
+            - package.json
+            - vite.config.ts
+            - resources/js/lib/utils.ts
+            - resources/js/composables/useAppearance.ts
+            - resources/js/components/ui/button/index.ts
+            - resources/js/components/ui/button/Button.vue
+            - resources/js/types/ui.ts
+            - resources/js/components/AppearanceTabs.vue
+        children: []
+        depends_on: []
+        related_to: []
+    logging_system:
+        dir_name: Laravel Monolog Logging Configuration
+        title: Laravel Monolog Logging Configuration
+        scope: []
+        source_files:
+            - config/logging.php
+        children: []
+        depends_on: []
+        related_to: []
+    routes_config:
+        dir_name: Application Routing & Configuration
+        title: Application Routing & Configuration
+        scope:
+            - routes/
+            - config/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: entry_points
+            - path: frontend/core_app
+    tests:
+        dir_name: Application Feature & Unit Testing
+        title: Application Feature & Unit Testing
+        scope:
+            - tests/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to:
+            - path: app/applicant_profiles
+            - path: app/job_positions
+            - path: database

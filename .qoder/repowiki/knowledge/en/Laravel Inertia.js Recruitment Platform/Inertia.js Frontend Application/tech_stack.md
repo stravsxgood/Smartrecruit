@@ -1,0 +1,1 @@
+Vue 3, Inertia.js, Laravel Wayfinder (for route generation), Vite, Tailwind CSS (implied by utility classes and dark mode strategy).

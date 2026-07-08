@@ -1,0 +1,4 @@
+- Eloquent models use the `protected function casts(): array` method instead of the `$casts` property to define attribute casting, ensuring better IDE support and type safety.
+- Complex data structures within models (e.g., `skills`, `custom_answers`, `raw_ai_response`) are consistently cast to `array` to handle JSON database columns seamlessly.
+- Sensitive fields in the `User` model (e.g., `password`, `two_factor_secret`) are explicitly hidden from serialization using the `#[Hidden]` PHP attribute.
+- Global application defaults are encapsulated in private methods within `AppServiceProvider` (e.g., `configureDefaults`) to maintain clean bootstrap logic.

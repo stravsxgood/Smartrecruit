@@ -1,0 +1,4 @@
+- **Data Layer**: Implements core domain models (`User`, `Application`, `CvAnalysis`) using Laravel Eloquent with strict typing via PHP 8 attributes (`#[Fillable]`, `#[Hidden]`) and explicit relationship definitions.
+- **Bootstrap & Configuration**: `AppServiceProvider` acts as the central configuration hub, enforcing production-ready defaults such as `CarbonImmutable` for time handling, destructive command protection, and dynamic password complexity rules.
+- **Controller Foundation**: Provides an abstract `Controller` base class that serves as the root for all HTTP controllers, establishing a consistent inheritance hierarchy for the application's request handling layer.
+- **Dependency Direction**: Models are self-contained regarding data structure but rely on the broader Laravel framework for persistence; the service provider bridges framework services with application-specific constraints.
